@@ -1,19 +1,21 @@
 body {
     padding-top: 70px;
-    /* background: url('https://snap-photos.s3.amazonaws.com/img-thumbs/960w/UUY821MG70.jpg') no-repeat fixed; */
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.4) 0%,rgba(255,255,255,0.4) 100%), url('https://snap-photos.s3.amazonaws.com/img-thumbs/960w/U5LYW9UWS0.jpg');
     background-size: cover;
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url('https://snap-photos.s3.amazonaws.com/img-thumbs/960w/UUY821MG70.jpg');
+    /*background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url('https://snap-photos.s3.amazonaws.com/img-thumbs/960w/UUY821MG70.jpg');*/
 }
 h1 {
     font-family: Domine;
     font-size: 72pt;
+    color: #333333;
 }
 h2 {
     font-family: Quattrocento Sans;
     font-size: 30pt;
+    color: #333333;
 }
 .nav.navbar-nav li a {
-    color: #fff;
+    color: #333333;
 }
 .nav.navbar-nav li a:hover {
     color: #ff6600;
@@ -25,7 +27,7 @@ h2 {
     max-width: 25px;
 }
 .boxes {
-    background-color: rgba(255,102,0,0.2);
+    background-color: rgba(255, 212, 128,0.5);
     margin: 10px;
 }
 .main_row {
@@ -37,13 +39,13 @@ h2 {
   /* background-size: cover; */
   text-align: left;
   /* height: 500px; */
-  color: white;
+  color: #333333;
   padding: 10px 10px 0px 10px;
 }
 .sub_header {
     font-family: "Quattrocento Sans";
     font-size: 22pt;
-    color: #fff;
+    color: #333333;
     padding: 0px 10px 0px 10px;
 }
 .features {
@@ -51,7 +53,7 @@ h2 {
     font-size: 12pt;
     line-height: 175%;
     font-family: "Quattrocento Sans";
-    color: #fff;
+    color: #333333;
     text-align: justify;
 }
 .some_section {
