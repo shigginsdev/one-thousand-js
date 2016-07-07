@@ -10,12 +10,26 @@ h1 {
 }
 h2 {
     font-family: Quattrocento Sans;
-    font-size: 36pt;
+    font-size: 30pt;
+}
+.nav.navbar-nav li a {
+    color: #fff;
+}
+.nav.navbar-nav li a:hover {
+    color: #ff6600;
+    background-color: transparent;
 }
 
 .logo {
     max-height: 25px;
     max-width: 25px;
+}
+.boxes {
+    background-color: rgba(255,102,0,0.2);
+    margin: 10px;
+}
+.main_row {
+    margin: 10px;
 }
 .hero {
   /* background: url('https://snap-photos.s3.amazonaws.com/img-thumbs/960w/DWLWL9USBG.jpg') no-repeat fixed; */
@@ -31,16 +45,14 @@ h2 {
     font-size: 22pt;
     color: #fff;
     padding: 0px 10px 0px 10px;
-    max-width: 50%;
 }
 .features {
     padding: 0px 10px 0px 10px;
-    font-size: 14pt;
+    font-size: 12pt;
     line-height: 175%;
     font-family: "Quattrocento Sans";
     color: #fff;
     text-align: justify;
-    max-width: 50%;
 }
 .some_section {
     padding: 15px;
