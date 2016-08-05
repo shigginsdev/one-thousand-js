@@ -1,6 +1,5 @@
 body {
     padding-top: 70px;
-    /*background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url('https://snap-photos.s3.amazonaws.com/img-thumbs/960w/UUY821MG70.jpg');*/
 }
 h1 {
     font-family: Domine;
@@ -25,15 +24,13 @@ h2 {
     max-width: 25px;
 }
 .boxes {
-    background-color: rgba(255, 212, 128,0.5);
+    background-color: rgba(255, 255, 255,0.5);
     margin: 10px;
 }
 .main_row {
     margin: 10px;
 }
 .hero {
-  /* background: url('https://snap-photos.s3.amazonaws.com/img-thumbs/960w/DWLWL9USBG.jpg') no-repeat fixed; */
-  /* background: url('https://snap-photos.s3.amazonaws.com/img-thumbs/960w/UUY821MG70.jpg') no-repeat fixed; */
   background-image: linear-gradient(to bottom, rgba(255,255,255,0.4) 0%,rgba(255,255,255,0.4) 100%), url('https://snap-photos.s3.amazonaws.com/img-thumbs/960w/U5LYW9UWS0.jpg');
   background-size: cover;
   text-align: left;
@@ -44,6 +41,16 @@ h2 {
 .portfolio-item {
     margin-bottom: 25px;
 }
+.grid-sizer,
+.grid-item { 
+      float: left;
+      width: 20%;
+      border: 2px solid hsla(0, 0%, 0%, 0.5);
+    
+}
+.grid-item--width2 { width: 160px; }
+.grid-item--height2 { height: 140px; }
+
 .sub_header {
     font-family: "Quattrocento Sans";
     font-size: 22pt;
