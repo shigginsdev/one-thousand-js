@@ -38,18 +38,19 @@ h2 {
   color: #333333;
   padding: 10px 10px 0px 10px;
 }
-.portfolio-item {
-    margin-bottom: 25px;
-}
+
 .grid-sizer,
 .grid-item { 
       float: left;
+      padding: 10px;
       width: 20%;
-      border: 2px solid hsla(0, 0%, 0%, 0.5);
+      margin: 0 auto;
+      /*border: 1px solid hsla(0, 0%, 0%, 0.5);*/
     
 }
 .grid-item--width2 { width: 160px; }
 .grid-item--height2 { height: 140px; }
+
 
 .sub_header {
     font-family: "Quattrocento Sans";
