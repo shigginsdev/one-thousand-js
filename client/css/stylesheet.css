@@ -53,6 +53,41 @@ h2 {
 .grid-item--width2 { width: 160px; }
 .grid-item--height2 { height: 140px; }
 
+.gi_hover {
+  content: attr(verse);
+  opacity: .25;
+  z-index: 10;
+  display: inline;
+  background: rgba(255,255,255,0.96);
+}
+
+a.hovertext {
+    position: relative;
+    width: 500px;
+    text-decoration: none !important;
+    text-align: center;
+}
+  
+a.hovertext:after {
+    content: attr(title);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 0.5em 20px;
+    width: 460px;
+    background: rgba(0,0,0,0.8);
+    text-decoration: none !important;
+    color: #fff;
+    opacity: 0;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+}
+
+a.hovertext:hover:after, a.hovertext:focus:after {
+    opacity: 1.0;
+}
 
 .sub_header {
     font-family: "Quattrocento Sans";

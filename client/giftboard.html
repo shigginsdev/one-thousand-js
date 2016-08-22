@@ -65,7 +65,7 @@
         <!-- Projects Row -->
         <div class="grid">
             <div class="grid-item">
-                    <a href="#">
+                    <a class="hovertext" href="#" verse="The title attribute of the link appears over the image on hover">
                     <img class="img-responsive" src="https://s-media-cache-ak0.pinimg.com/564x/bf/73/4d/bf734dfc6a59986a2e1abf2218d92f65.jpg" alt="">
                     </a>
                     Getting so lost in art that you burn the salmon. Like REALLY burn it!
@@ -248,36 +248,8 @@
 
     </div>
     <!-- /.container -->
-    
-    <script>
-           //Need to move this to it's own file 
-            $(document).ready(function(){
-               // jQuery methods go here...
-               
-               $('#container').imagesLoaded()
-                  .always( function( instance ) {
-                    console.log('all images loaded');
-                    
-                       $('.grid').masonry({
-                          // options
-                          itemSelector: '.grid-item',
-                          columnWidth: 35,
-                        }); 
-                        
-                  })
-                  .done( function( instance ) {
-                    console.log('all images successfully loaded');
-                  })
-                  .fail( function() {
-                    console.log('all images loaded, at least one is broken');
-                  })
-                  .progress( function( instance, image ) {
-                    var result = image.isLoaded ? 'loaded' : 'broken';
-                    console.log( 'image is ' + result + ' for ' + image.img.src );
-                  });
-            
-            });
-        </script>
-        
+       
+   <script src="/js/onethousand.js"></script>
+       
       </body>
 </html>
