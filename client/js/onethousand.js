@@ -25,10 +25,7 @@ $(document).ready(function(){
 
 });
 
-$( ".grid-item" ).hover(
-  function() {
-    $( this ).addClass( "gi_hover" );
-  }, function() {
-    $( this ).removeClass( "gi_hover" );
-  }
-);
+$('.grid-item').hover(function() {
+    $('h3', this).slideToggle(100, 'linear').display(100, 'linear');
+});
+
