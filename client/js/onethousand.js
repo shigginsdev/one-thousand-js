@@ -25,7 +25,4 @@ $(document).ready(function(){
 
 });
 
-$('.grid-item').hover(function() {
-    $('h3', this).slideToggle(100, 'linear').display(100, 'linear');
-});
 
