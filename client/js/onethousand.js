@@ -23,6 +23,20 @@ $(document).ready(function(){
         console.log( 'image is ' + result + ' for ' + image.img.src );
       });
 
+
+    $('.one-background').hover(
+        function () {
+            $(this).animate({opacity:'1'});
+            console.log("hover");
+        },
+        function () {
+            $(this).animate({opacity:'0'});
+        }
+    
+    );
+
 });
+
+
 
 

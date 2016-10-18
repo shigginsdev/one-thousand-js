@@ -51,56 +51,7 @@ h3 {
   padding: 10px 10px 0px 10px;
 }
 
-.grid-sizer,
-.grid-item { 
-      float: left;
-      padding: 10px;
-      width: 20%;
-      margin: 0 auto;
-      color: #333333;
-      font-size: 10pt;
-      /*border: 1px solid hsla(0, 0%, 0%, 0.5);*/
-    
-}
-.grid-item--width2 { width: 160px; }
-.grid-item--height2 { height: 140px; }
 
-.gi_hover {
-  content: attr(verse);
-  opacity: .25;
-  z-index: 10;
-  display: inline;
-  background: rgba(255,255,255,0.96);
-}
-
-/*a.hovertext {
-    position: relative;
-    width: 500px;
-    text-decoration: none !important;
-    text-align: center;
-}
-  
-a.hovertext:after {
-    content: attr(title);
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    padding: 0.5em 20px;
-    width: 460px;
-    background: rgba(0,0,0,0.8);
-    text-decoration: none !important;
-    color: #fff;
-    opacity: 0;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -o-transition: 0.5s;
-    -ms-transition: 0.5s;
-}
-
-a.hovertext:hover:after, a.hovertext:focus:after {
-    opacity: 1.0;
-}
-*/
 .sub_header {
     font-family: "Quattrocento Sans";
     font-size: 22pt;
@@ -117,4 +68,26 @@ a.hovertext:hover:after, a.hovertext:focus:after {
 }
 .some_section {
     padding: 15px;
+}
+
+.grid-item { 
+      float: left;
+      display: block;
+      padding: 10px;
+      width: 350px;
+      height: 350px;
+      margin: 0 auto;
+      color: #333333;
+      font-size: 10pt;
+      overflow: hidden;
+      /*border: 1px solid hsla(0, 0%, 0%, 0.5);*/
+    
+}
+.one-background { 
+    background-color:rgba(0,0,0,0.6);
+    opacity:1; 
+    margin-top:-25px; 
+    width:100%; 
+    height:100%; 
+    
 }
